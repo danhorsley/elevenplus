@@ -1,0 +1,28 @@
+1. what is the nth term of this sequence   -   3   -2   -7   -12   -17
+2. A plumber charges a customer $70 for every job and $10 for every month he works.
+            Write a formula for how much he charges (C) for t months of work
+3. what is the nth term of this sequence   -   -11   -16   -21   -26   -31
+4. A builder charges a customer $60 for every job and $20 for every week he works.
+            Write a formula for how much he charges (C) for t weeks of work
+5. Barry has some money.  After spending 80% of it he is left with $72.44.  How much money did he start with?
+6. An electrician charges a customer $80 for every job and $30 for every week he works.
+            Write a formula for how much he charges (C) for t weeks of work
+7. Round 89.75572 to the nearest hundreth.
+8. A packet of 5 Mint Pyramids costs $30.25.  
+        They are on special offer with 60% off. What is the cost of 1 Mint Pyramid
+9. Deirdre has some money.  After spending 10% of it she is left with $92.48.  How much money did she start with?
+10. Mr and Mrs Luxury-Yacht and their children are all having a laugh.Mrs Luxury-Yacht is laughing 4 times as much  as Mr Luxury-Yacht and Mr Luxury-Yacht is laughing 3 times as much as the children.  If the total amount of chortles laughed is 1472 chortles how many chortles did the children laugh?
+11. Steve has some money.  After spending 75% of it he is left with $53.76.  How much money did he start with?
+12. Mr and Mrs Davis and their children are all going to the hairdresser.Mrs Davis is spending 3 times as much  as Mr Davis and Mr Davis is spending 5 times as much as the children.  If the total amount of dollars spent is 1218 dollars how many dollars did Mrs Davis spend?
+13. A plasterer charges a customer $50 for every job and $20 for every month he works.
+            Write a formula for how much he charges (C) for t months of work
+14. split 2277 in the ratio 16 : 7
+15. A plumber charges a customer $70 for every job and $10 for every week he works.
+            Write a formula for how much he charges (C) for t weeks of work
+16. A repairman charges a customer $20 for every job and $25 for every week he works.
+            Write a formula for how much he charges (C) for t weeks of work
+17. Round 32370559.62836 to the nearest thousandth.
+18. you are given two numbers : 10 and 9.  there are also two missing numbers. The mean of the numbers is 8.  Which of the following pairs could be the missing numbers? 1 and 7, 10 and 3, 2 and 1, 8 and 9, 4 and 8.
+19. Mr and Mrs Horsley and their children are all excercising.Mrs Horsley is doing push ups 5 times as much  as Mr Horsley and Mr Horsley is doing push ups 6 times as much as the children.  If the total amount of reps done is 2035 reps how many reps did the children do?
+20. A plumber charges a customer $20 for every job and $5 for every day he works.
+            Write a formula for how much he charges (C) for t days of work
