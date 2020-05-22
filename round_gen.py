@@ -133,14 +133,17 @@ def form_q():
     return [q.replace('\n                    ', ' '), answer]
 
 def formq2():
-    second_name_list = ['Smith', 'Jones', 'Patel', 'Davis', 'Horsley', 'Ridley', 'Pressler-Jones', 'Noble', 'Bonky-Clonky',
-                       'Luxury-Yacht', 'Gifthorse', 'Smellypants', 'Monobrow']
+    second_name_list = ['Horsley', 'Ridley', 'Pressler-Jones',] 
+    #'Smith', 'Jones', 'Patel', 'Davis', 'Gifthorse', 'Noble','Monobrow','Wobbly-Bum','Bonky-Clonky',
+                     #  'Luxury-Yacht',  'Smellypants',  ]
     second_name = random.choice(second_name_list)
     task_dict = {'losing weight' : ['kg', 'losing weight', 'as fast', 'weight lost', 'lose'],
             'going to the hairdresser' :['dollars', 'spending', 'as much', 'dollars spent', 'spend'],
             'going to the sweetshop':['dollars', 'spending', 'as much', 'dollars spent', 'spend'], 
             'having a laugh':['chortles', 'laughing' , 'as much', 'chortles laughed', 'laugh'],
-            'excercising' : ['reps', 'doing push ups', 'as much', 'reps done', 'do']}
+            'excercising' : ['reps', 'doing push ups', 'as much', 'reps done', 'do'],
+            'being annoying' : ['annoying moments', 'being annoying', 'as much', 'annoys done', 'do'],
+            'eating pies' : ['pies', 'eating pies', 'as many', 'pies eaten', 'eat']}
     task = random.choice(list(task_dict.keys()))    
     
     small_int = random.randint(2, 5)
@@ -159,8 +162,73 @@ def formq2():
             {family_member} {task_dict[task][4]}?'''
                                     
     return [q.replace('\n            ', ''), answer]
+def alg_sub():
+    second_name_list = ['Smith', 'Jones', 'Patel', 'Davis', 'Horsley', 'Ridley', 'Pressler-Jones', 'Noble', 'Bonky-Clonky',
+                       'Luxury-Yacht', 'Gifthorse', 'Smellypants', 'Monobrow']
+    object_list = {'plank of wood' : 'length', 'pile of bricks' : 'weight', 'bucket' : 'a volume of'}
+    my_obj = random.choice(list(object_list.keys()))
+    second_name = random.choice(second_name_list)
+    dimension = {'length' : ['cm long', 'is','makes','new plank', 'of', ' is no wood'],
+                 'weight' : ['kg', 'weighs','makes','new pile', 'of', 'are no bricks'],
+                 'a volume of' : ['litres of water', 'contains','fills', 'new bucket', 'with', 'is no water']}
+    
+    measure1 = random.randint(25,100)
+    measure2 = random.randint(25,100)
+    measure3 = random.randint(25,100)
+    scalar1 = random.randint(1,5)
+    scalar2 = random.randint(1,5)
+    scalar3 = random.randint(1,5)
+    def balancer(var1, var2):
+        if var1>var2:
+            return f' + {var1 - var2}'
+        elif var2>var1:
+            return f' - {var2 - var1}'
+        else:
+            return ''
+    measure_total = scalar1 * measure1 + scalar2 * measure2 + scalar3 * measure3
+    def pluralizer(my_scalar):
+        if my_scalar == 1:
+            return ''
+        else:
+            return 's'
+    my_q = f'''Mr {second_name} has a {my_obj} that {dimension[object_list[my_obj]][1]} 
+            {measure_total} {dimension[object_list[my_obj]][0]}. He {dimension[object_list[my_obj]][2]} {scalar1} 
+            {dimension[object_list[my_obj]][3]}{pluralizer(scalar1)} {dimension[object_list[my_obj]][4]} 
+            {object_list[my_obj]} x {dimension[object_list[my_obj]][0]}, 
+            {scalar2} 
+            {dimension[object_list[my_obj]][3]}{pluralizer(scalar2)} {dimension[object_list[my_obj]][4]} 
+            {object_list[my_obj]} y {dimension[object_list[my_obj]][0]}, 
+            {scalar3} 
+            {dimension[object_list[my_obj]][3]}{pluralizer(scalar2)} {dimension[object_list[my_obj]][4]} 
+            {object_list[my_obj]} z {dimension[object_list[my_obj]][0]}. 
+            There {dimension[object_list[my_obj]][5]} left over.  Write an equation that gives the 
+            {object_list[my_obj]} of the {my_obj} in terms of x, y and z. 
+            Calculate x and z if y = {measure2} and z = x{balancer(measure3, measure1)}
+            '''
+    return [my_q.replace('\n            ', ''), f'x = {measure1}, z = {measure3}']
 
-def make_worksheet(number_questions = 20, my_type = 'random'):
+def ooo1():
+    scalar1 = random.choice([-1,1]) * random.randint(1,9)
+    scalar2 = random.choice([-1,1]) * random.randint(1,9)
+    scalar3 = random.choice([-1,1]) * random.randint(1,9)
+    
+    def oner(my_scalar):
+        if my_scalar==1:
+            return ''
+        elif my_scalar==-1:
+            return '-'
+        else:
+            return f'{my_scalar}'
+    def signer(my_int) :
+        if my_int < 0:
+            return ''
+        else:
+            return '+'
+    my_q = f'Simplify the following expression : {oner(scalar1)}({oner(scalar2)}x {signer(scalar3)} {scalar3})'
+    answer = f'{scalar1*scalar2}x {signer(scalar1*scalar3)} {scalar1*scalar3}'
+    return [my_q, answer] 
+
+def make_worksheet(number_questions = 30, my_type = 'random'):
     
     question_bank = []
     answer_bank = []
@@ -168,7 +236,8 @@ def make_worksheet(number_questions = 20, my_type = 'random'):
         type_dict = {'rounding' : rounding(), 'percent' : percent_q(), 
                                 'ratio' : ratio_q(), 'nth' : nth_term_q(),
                                 'percent2' : percent2_q(), 'average' : average_q(),
-                                'formula' : form_q(), 'formula2' : formq2()}
+                                'formula' : form_q(), 'formula2' : formq2(),
+                                'ooo1' : ooo1(), 'alg_sub' : alg_sub()}
         if my_type == 'random':
             look_up = random.choice(list(type_dict.keys()))
         else:
