@@ -292,6 +292,7 @@ def quick_way():
     {f}
     """
     return [q.replace('\n    ', ''), large_int//adj]
+
 def slow_grow():
     slow_animal = ['sloth', 'snail', 'slug', 'tortoise']
     slow = random.choice(slow_animal)
@@ -305,13 +306,34 @@ def slow_grow():
     object_list = []
     return [q.replace('\n    ', ''),answer]
 
+def simple_ratio():
+    name_list = ['Susan', 'Grace', 'Ruby']
+    int1 = 1 # random.randint(1,3)
+    int2 = random.randint(1,3)
+    mult = random.randint(2,5)
+    obj1 = random.choice(['A', 'X', '?', '$'])
+    obj2 = random.choice(['B', 'Y', '#', '%'])
+    list1 = [obj1 for i in range(int1*mult)]
+    list2 = [obj2 for j in range(int2*mult)]
+    
+    name = random.choice(name_list)
+    ret_list = random.sample(list1 + list2, len(list1 + list2))
+    str_ret = ''
+    for i in range(len(ret_list)):
+        str_ret = str_ret + ret_list[i] + '  '
+    answer = f'{int1} : {int2}'
+    q = f"""{str_ret}
+         What is the ratio of {obj1} to {obj2} in its simplest form"""
+    return [q.replace('\n    ', ''), answer]
+
 def make_worksheet(number_questions = 30, my_type = 'random'):
     
     question_bank = []
     answer_bank = []
     for j in range(0,number_questions):
         type_dict = {'rounding' : rounding(), 'percent' : percent_q(), 
-                                'ratio' : ratio_q(), 'nth' : nth_term_q(),
+                                'ratio' : ratio_q(), 'simple_ratio' : simple_ratio(),
+                                'nth' : nth_term_q(),
                                 'percent2' : percent2_q(), 'average' : average_q(),
                                 'formula' : form_q(), 'formula2' : formq2(),
                                 'formula' : form_q3(), 'formula2' : form_q4(),
