@@ -162,6 +162,54 @@ def formq2():
             {family_member} {task_dict[task][4]}?'''
                                     
     return [q.replace('\n            ', ''), answer]
+
+def form_q3():
+    name_list = ['Barry', 'Norman', 'Algernon']
+    prod_list =['flower', 'balloon', 'comic', 'sweet']
+    
+    name = random.choice(name_list)
+    prod = random.choice(prod_list)
+    individual_cost = random.randint(1,10) 
+    box_size = random.randint(5,10) 
+    total_bot = box_size * random.randint(2,10)
+    
+    q = f'''{name} is opening up a {prod} stall at the market.
+    He buys a stall for $S and the boxes of {prod} for $B.
+    Each box contains {box_size} {prod}s and {name} buys {total_bot} {prod}s.
+    Write an expression in terms of S & B that shows the total cost in dollars?'''
+    answer = f'S + {int(total_bot/box_size)}B'
+    return [q.replace('\n ', ''), answer]
+def form_q4():
+    #part1
+    name_list1 = ['Barry', 'Norman', 'Algernon']
+    name_list2 = ['Steve', 'Dave', 'Jack']
+    name_list3 = ['Billy', 'George', 'Neil']
+    prod_list = ['flower', 'balloon', 'comic', 'sweet']
+    name1 = random.choice(name_list1)
+    name2 = random.choice(name_list2)
+    name3 = random.choice(name_list3)
+    prod = random.choice(prod_list)
+    my_int1 = random.randint(2,10)
+    my_int2 = random.randint(2,10)
+    my_int3 = random.randint(2,10)
+    answer_int = random.randint(3,15)
+    total_int = (my_int2 + 1 + my_int3)*answer_int + my_int1
+    exp1 = f'{my_int3}P + {my_int1}'
+    exp2 = f'{my_int2}P'
+    #part2
+    name_list4 = ['Victor', 'Larry', 'Albert']
+    name4 = random.choice(name_list4)
+    my_int4 = random.randint(2,9)
+    const = my_int4*my_int1
+    grad = my_int4*my_int3
+    answer1 = f'{my_int4}({exp1})'
+    answer2 = f'{grad}P + {const}'
+    q = f'''{name1} has P {prod}s, {name2} has {exp1} {prod}s and {name3} has {exp2} {prod}s.
+    Altogether {name1}, {name2} and {name3} have {total_int} {prod}s.  How many {prod}s does {name1} have?
+    {name4} has {my_int4} times as many {prod}s as {name2}.  Write an expression in terms of P that shows the number
+    of {prod}s that {name4} has in non-simplified and simplified form.'''
+    return [q.replace('\n ', ''), [answer_int, answer1, answer2]]
+
 def alg_sub():
     second_name_list = ['Smith', 'Jones', 'Patel', 'Davis', 'Horsley', 'Ridley', 'Pressler-Jones', 'Noble', 'Bonky-Clonky',
                        'Luxury-Yacht', 'Gifthorse', 'Smellypants', 'Monobrow']
@@ -237,6 +285,7 @@ def make_worksheet(number_questions = 30, my_type = 'random'):
                                 'ratio' : ratio_q(), 'nth' : nth_term_q(),
                                 'percent2' : percent2_q(), 'average' : average_q(),
                                 'formula' : form_q(), 'formula2' : formq2(),
+                                'formula' : form_q3(), 'formula2' : form_q4(),
                                 'ooo1' : ooo1(), 'alg_sub' : alg_sub()}
         if my_type == 'random':
             look_up = random.choice(list(type_dict.keys()))
