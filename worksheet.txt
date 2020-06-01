@@ -1,32 +1,33 @@
-1. what is the nth term of this sequence   -   -16   -24   -32   -40   -48
-2. Barry has P comics, Jack has 4P + 4 comics and Billy has 5P comics.   Altogether Barry, Jack and Billy have 104 comics.  How many comics does Barry have?   Victor has 6 times as many comics as Jack.  Write an expression in terms of P that shows the number   of comics that Victor has in non-simplified and simplified form.
-3. Round 3.75554 to the nearest tenth.
-4. what is the nth term of this sequence   -   -1   -6   -11   -16   -21
-5. Doreen has some money.  After spending 10% of it she is left with $77.35.  How much money did she start with?
-6. Mr Luxury-Yacht has a plank of wood that is 714 cm long. He makes 3 new planks of length x cm long, 3 new planks of length y cm long, 3 new planks of length z cm long. There  is no wood left over.  Write an equation that gives the length of the plank of wood in terms of x, y and z. Calculate x and z if y = 85 and z = x + 1
-7. you are given two numbers : 6 and 10.  there are also two missing numbers. The mean of the numbers is 6.  Which of the following pairs could be the missing numbers? 7 and 8, 6 and 2, 1 and 6, 9 and 8, 7 and 6.
-8. Mr Jones has a plank of wood that is 304 cm long. He makes 3 new planks of length x cm long, 3 new planks of length y cm long, 2 new planks of length z cm long. There  is no wood left over.  Write an equation that gives the length of the plank of wood in terms of x, y and z. Calculate x and z if y = 49 and z = x + 11
-9. Algernon is opening up a sweet stall at the market.   He buys a stall for $S and the boxes of sweet for $B.   Each box contains 9 sweets and Algernon buys 27 sweets.   Write an expression in terms of S & B that shows the total cost in dollars?
-10. Norman is opening up a comic stall at the market.   He buys a stall for $S and the boxes of comic for $B.   Each box contains 5 comics and Norman buys 15 comics.   Write an expression in terms of S & B that shows the total cost in dollars?
-11. A packet of 6 Honey Rascals costs $50.52.  
-        They are on special offer with 50% off. What is the cost of 1 Honey Rascal
-12. A packet of 10 Strawberry BangPops costs $62.33.  
-        They are on special offer with 40% off. What is the cost of 1 Strawberry BangPop
-13. split 4185 in the ratio 17 : 14
-14. Barry has P flowers, Steve has 3P + 8 flowers and Billy has 6P flowers.   Altogether Barry, Steve and Billy have 138 flowers.  How many flowers does Barry have?   Victor has 7 times as many flowers as Steve.  Write an expression in terms of P that shows the number   of flowers that Victor has in non-simplified and simplified form.
-15. what is the nth term of this sequence   -   -7   -15   -23   -31   -39
-16. Algernon has P sweets, Steve has 7P + 2 sweets and Neil has 2P sweets.   Altogether Algernon, Steve and Neil have 72 sweets.  How many sweets does Algernon have?   Victor has 5 times as many sweets as Steve.  Write an expression in terms of P that shows the number   of sweets that Victor has in non-simplified and simplified form.
-17. split 576 in the ratio 18 : 18
-18. Deirdre has some money.  After spending 30% of it she is left with $5.73.  How much money did she start with?
-19. Barry is opening up a flower stall at the market.   He buys a stall for $S and the boxes of flower for $B.   Each box contains 7 flowers and Barry buys 49 flowers.   Write an expression in terms of S & B that shows the total cost in dollars?
-20. split 3861 in the ratio 13 : 12 : 6 : 8
-21. Simplify the following expression : -5(-5x + 5)
-22. you are given two numbers : 9 and 9.  there are also two missing numbers. The mean of the numbers is 6.  Which of the following pairs could be the missing numbers? 5 and 5, 7 and 7, 7 and 6, 2 and 4, 9 and 1.
-23. Mr Pressler-Jones has a bucket that contains 387 litres of water. He fills 1 new bucket with a volume of x litres of water, 5 new buckets with a volume of y litres of water, 2 new buckets with a volume of z litres of water. There is no water left over.  Write an equation that gives the a volume of of the bucket in terms of x, y and z. Calculate x and z if y = 26 and z = x + 34
-24. split 812 in the ratio 8 : 6
-25. Norman has P balloons, Dave has 9P + 4 balloons and Neil has 4P balloons.   Altogether Norman, Dave and Neil have 88 balloons.  How many balloons does Norman have?   Albert has 6 times as many balloons as Dave.  Write an expression in terms of P that shows the number   of balloons that Albert has in non-simplified and simplified form.
-26. what is the nth term of this sequence   -   1   5   9   13   17
-27. Round 61637.4261 to the nearest hundred.
-28. Barry has some money.  After spending 75% of it he is left with $93.13.  How much money did he start with?
-29. Barry has P comics, Dave has 2P + 6 comics and Billy has 9P comics.   Altogether Barry, Dave and Billy have 174 comics.  How many comics does Barry have?   Albert has 2 times as many comics as Dave.  Write an expression in terms of P that shows the number   of comics that Albert has in non-simplified and simplified form.
-30. split 3404 in the ratio 14 : 16 : 7
+1. Round 3463521.09379 to the nearest thousandth.
+2. Simplify the following expression : 6(-6x  -9)
+3. you are given two numbers : 10 and 8.  there are also two missing numbers. The mean of the numbers is 6.  Which of the following pairs could be the missing numbers? 5 and 10, 8 and 9, 2 and 4, 6 and 10, 8 and 1.
+4. what is the nth term of this sequence   -   13   21   29   37   45
+5. you are given two numbers : 9 and 2.  there are also two missing numbers. The mean of the numbers is 4.  Which of the following pairs could be the missing numbers? 10 and 10, 8 and 10, 5 and 7, 7 and 8, 2 and 3.
+6. split 9672 in the ratio 10 : 18 : 19 : 5
+7. Round 53187.11672 to the nearest thousand.
+8. Find X in the following equation : 1866 + 1866 + 1866 = X * 9
+9. you are given two numbers : 9 and 9.  there are also two missing numbers. The mean of the numbers is 7.  Which of the following pairs could be the missing numbers? 7 and 3, 4 and 10, 4 and 2, 9 and 4, 1 and 6.
+10. Round 72713.88533 to the nearest tenth.
+11. Mr Gifthorse has a pile of bricks that weighs 956 kg. He makes 2 new piles of weight x kg, 5 new piles of weight y kg, 5 new piles of weight z kg. There are no bricks left over.  Write an equation that gives the weight of the pile of bricks in terms of x, y and z. Calculate x and z if y = 99 and z = x + 32
+12. Round 59315120.95454 to the nearest thousandth.
+13. split 5460 in the ratio 12 : 16 : 11
+14. Mr Smith has a plank of wood that is 526 cm long. He makes 1 new plank of length x cm long, 2 new planks of length y cm long, 5 new planks of length z cm long. There  is no wood left over.  Write an equation that gives the length of the plank of wood in terms of x, y and z. Calculate x and z if y = 67 and z = x - 2
+15. A packet of 12 Disgusting FreezyMcBreezies costs $103.2.  
+        They are on special offer with 60% off. What is the cost of 1 Disgusting FreezyMcBreezie
+16. A packet of 15 Chocloate Flowers costs $105.17.  
+        They are on special offer with 10% off. What is the cost of 1 Chocloate Flower
+17. Mr Luxury-Yacht has a pile of bricks that weighs 336 kg. He makes 1 new pile of weight x kg, 1 new pile of weight y kg, 4 new pile of weight z kg. There are no bricks left over.  Write an equation that gives the weight of the pile of bricks in terms of x, y and z. Calculate x and z if y = 85 and z = x - 21
+18. Find X in the following equation : 3903 + 3903 = X * 6
+19. you are given two numbers : 10 and 1.  there are also two missing numbers. The mean of the numbers is 6.  Which of the following pairs could be the missing numbers? 4 and 6, 7 and 8, 7 and 9, 9 and 10, 10 and 3.
+20. Hilda has some money.  After spending 90% of it she is left with $60.41.  How much money did she start with?
+21. Deirdre has some money.  After spending 40% of it she is left with $87.09.  How much money did she start with?
+22. Round 38783.07235 to the nearest thousand.
+23. Round 4135101.14314 to the nearest hundred.
+24. A packet of 8 Jammy Bears costs $79.77.  
+        They are on special offer with 30% off. What is the cost of 1 Jammy Bear
+25. A slug moves at 0.045 metres every 30 minutes.  How many hours will it take to move 162 cm?
+26. Norman has P comics, Dave has 5P + 9 comics and Neil has 3P comics.   Altogether Norman, Dave and Neil have 36 comics.  How many comics does Norman have?   Albert has 9 times as many comics as Dave.  Write an expression in terms of P that shows the number   of comics that Albert has in non-simplified and simplified form.
+27. A snail moves at 0.035 metres every 30 minutes.  How many hours will it take to move 77 cm?
+28. split 2286 in the ratio 6 : 12
+29. Find X in the following equation : 8656 + 8656 = X * 4
+30. Norman has P flowers, Dave has 9P + 3 flowers and George has 7P flowers.   Altogether Norman, Dave and George have 190 flowers.  How many flowers does Norman have?   Larry has 3 times as many flowers as Dave.  Write an expression in terms of P that shows the number   of flowers that Larry has in non-simplified and simplified form.

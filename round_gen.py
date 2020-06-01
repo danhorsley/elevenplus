@@ -133,7 +133,7 @@ def form_q():
     return [q.replace('\n                    ', ' '), answer]
 
 def formq2():
-    second_name_list = ['Horsley', 'Ridley', 'Pressler-Jones',] 
+    second_name_list = ['Smith', 'Davis', 'Jones'] 
     #'Smith', 'Jones', 'Patel', 'Davis', 'Gifthorse', 'Noble','Monobrow','Wobbly-Bum','Bonky-Clonky',
                      #  'Luxury-Yacht',  'Smellypants',  ]
     second_name = random.choice(second_name_list)
@@ -142,7 +142,6 @@ def formq2():
             'going to the sweetshop':['dollars', 'spending', 'as much', 'dollars spent', 'spend'], 
             'having a laugh':['chortles', 'laughing' , 'as much', 'chortles laughed', 'laugh'],
             'excercising' : ['reps', 'doing push ups', 'as much', 'reps done', 'do'],
-            'being annoying' : ['annoying moments', 'being annoying', 'as much', 'annoys done', 'do'],
             'eating pies' : ['pies', 'eating pies', 'as many', 'pies eaten', 'eat']}
     task = random.choice(list(task_dict.keys()))    
     
@@ -211,7 +210,7 @@ def form_q4():
     return [q.replace('\n ', ''), [answer_int, answer1, answer2]]
 
 def alg_sub():
-    second_name_list = ['Smith', 'Jones', 'Patel', 'Davis', 'Horsley', 'Ridley', 'Pressler-Jones', 'Noble', 'Bonky-Clonky',
+    second_name_list = ['Smith', 'Jones', 'Patel', 'Davis', 'Bonky-Clonky',
                        'Luxury-Yacht', 'Gifthorse', 'Smellypants', 'Monobrow']
     object_list = {'plank of wood' : 'length', 'pile of bricks' : 'weight', 'bucket' : 'a volume of'}
     my_obj = random.choice(list(object_list.keys()))
@@ -276,6 +275,36 @@ def ooo1():
     answer = f'{scalar1*scalar2}x {signer(scalar1*scalar3)} {scalar1*scalar3}'
     return [my_q, answer] 
 
+def quick_way():
+    adj = random.randint(2,4)
+    large_int = random.randint(1000//adj,10000//adj) * adj
+    my_iters = random.randint(2,4) 
+    last_iters = my_iters * adj
+    
+    def my_form(my_int,iters):
+        ret = str(my_int)
+        for i in range(1,iters):
+            ret = ret + ' + ' + str(my_int)
+        ret = ret + f' = X * {last_iters}'
+        return ret
+    f = my_form(large_int, my_iters)
+    q = f"""Find X in the following equation : 
+    {f}
+    """
+    return [q.replace('\n    ', ''), large_int//adj]
+def slow_grow():
+    slow_animal = ['sloth', 'snail', 'slug', 'tortoise']
+    slow = random.choice(slow_animal)
+    inc = random.choice([0,0.005])
+    speed = random.randint(1,9) * 5 /1000 #+ inc
+    minutes = random.choice([15,30,45])
+    answer = random.randint(2,19)
+    distance = round(answer * speed * 60/minutes,2)
+    q = f"""A {slow} moves at {speed} metres every {minutes} minutes.  How many hours will it take to move
+     {int(distance * 100)} cm?"""
+    object_list = []
+    return [q.replace('\n    ', ''),answer]
+
 def make_worksheet(number_questions = 30, my_type = 'random'):
     
     question_bank = []
@@ -286,7 +315,8 @@ def make_worksheet(number_questions = 30, my_type = 'random'):
                                 'percent2' : percent2_q(), 'average' : average_q(),
                                 'formula' : form_q(), 'formula2' : formq2(),
                                 'formula' : form_q3(), 'formula2' : form_q4(),
-                                'ooo1' : ooo1(), 'alg_sub' : alg_sub()}
+                                'ooo1' : ooo1(), 'alg_sub' : alg_sub(),
+                                'quick_way' : quick_way(), 'slow_grow' : slow_grow()}
         if my_type == 'random':
             look_up = random.choice(list(type_dict.keys()))
         else:
