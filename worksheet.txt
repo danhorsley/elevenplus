@@ -1,32 +1,30 @@
-1. what is the nth term of this sequence   -   -7   -9   -11   -13   -15
-2. A slug moves at 0.015 metres every 15 minutes.  How many hours will it take to move 72 cm?
-3. you are given two numbers : 10 and 8.  there are also two missing numbers. The mean of the numbers is 8.  Which of the following pairs could be the missing numbers? 3 and 9, 10 and 4, 6 and 6, 3 and 2, 1 and 2.
-4. Simplify the following expression : 8(7x + 9)
-5. what is the nth term of this sequence   -   -6   -8   -10   -12   -14
-6. you are given two numbers : 4 and 7.  there are also two missing numbers. The mean of the numbers is 5.  Which of the following pairs could be the missing numbers? 7 and 10, 8 and 1, 7 and 3, 10 and 3, 9 and 6.
-7. Norman has P balloons, Steve has 2P + 9 balloons and Neil has 8P balloons.   Altogether Norman, Steve and Neil have 174 balloons.  How many balloons does Norman have?   Larry has 5 times as many balloons as Steve.  Write an expression in terms of P that shows the number   of balloons that Larry has in non-simplified and simplified form.
-8. A packet of 8 Strawberry Surprises costs $59.47.  
-        They are on special offer with 40% off. What is the cost of 1 Strawberry Surprise
-9. Find X in the following equation : 8580 + 8580 = X * 6
-10. Simplify the following expression : -5(6x + 8)
-11. Mr Davis has a bucket that contains 480 litres of water. He fills 3 new buckets with a volume of x litres of water, 2 new buckets with a volume of y litres of water, 1 new buckets with a volume of z litres of water. There is no water left over.  Write an equation that gives the a volume of of the bucket in terms of x, y and z. Calculate x and z if y = 50 and z = x - 20
-12. Simplify the following expression : 5(3x  -5)
-13. you are given two numbers : 6 and 6.  there are also two missing numbers. The mean of the numbers is 5.  Which of the following pairs could be the missing numbers? 8 and 4, 2 and 4, 7 and 1, 10 and 9, 3 and 9.
-14. Find X in the following equation : 8188 + 8188 = X * 8
-15. Round 463.07207 to the nearest unit.
-16. Round 5919.01202 to the nearest unit.
-17. A snail moves at 0.005 metres every 30 minutes.  How many hours will it take to move 9 cm?
-18. you are given two numbers : 10 and 4.  there are also two missing numbers. The mean of the numbers is 4.  Which of the following pairs could be the missing numbers? 10 and 9, 6 and 8, 1 and 1, 4 and 7, 4 and 4.
-19. Round 5459551.36465 to the nearest thousandth.
-20. you are given two numbers : 10 and 5.  there are also two missing numbers. The mean of the numbers is 5.  Which of the following pairs could be the missing numbers? 5 and 7, 6 and 4, 8 and 2, 2 and 3, 1 and 8.
-21. A slug moves at 0.01 metres every 45 minutes.  How many hours will it take to move 13 cm?
-22. what is the nth term of this sequence   -   -15   -22   -29   -36   -43
-23. Simplify the following expression : -7(5x  -1)
-24. Find X in the following equation : 9040 + 9040 = X * 8
-25. A slug moves at 0.035 metres every 30 minutes.  How many hours will it take to move 98 cm?
-26. what is the nth term of this sequence   -   1   5   9   13   17
-27. ?  ?  B  ?  B  ?  B  B       What is the ratio of ? to B in its simplest form
-28. A packet of 12 Mint FreezyMcBreezies costs $118.4.  
-        They are on special offer with 10% off. What is the cost of 1 Mint FreezyMcBreezie
-29. split 9729 in the ratio 13 : 19 : 16 : 21
-30. Round 4254.32877 to the nearest thousandth.
+1. what is the nth term of this sequence   -   -5   -13   -21   -29   -37
+2. Norman has P flowers, Dave has 10P + 3 flowers and Billy has 2P flowers.   Altogether Norman, Dave and Billy have 198 flowers.  How many flowers does Norman have?   Albert has 7 times as many flowers as Dave.  Write an expression in terms of P that shows the number   of flowers that Albert has in non-simplified and simplified form.
+3. Algernon is opening up a flower stall at the market.   He buys a stall for $S and the boxes of flower for $B.   Each box contains 10 flowers and Algernon buys 80 flowers.   Write an expression in terms of S & B that shows the total cost in dollars?
+4. %  %  %  ?  ?  %  %  %  %  ?  %  %  ?  %  ?  %  %  %  %  %       What is the ratio of ? to % in its simplest form
+5. Round 8.9787 to the nearest hundred.
+6. split 5520 in the ratio 9 : 21
+7. Round 32.23047 to the nearest unit.
+8. Norman has P comics, Dave has 5P + 2 comics and Neil has 3P comics.   Altogether Norman, Dave and Neil have 47 comics.  How many comics does Norman have?   Albert has 6 times as many comics as Dave.  Write an expression in terms of P that shows the number   of comics that Albert has in non-simplified and simplified form.
+9. Find X in the following equation : 2496 + 2496 = X * 4
+10. Barry has some money.  After spending 15% of it he is left with $39.49.  How much money did he start with?
+11. Barry has P comics, Steve has 6P + 3 comics and Neil has 6P comics.   Altogether Barry, Steve and Neil have 68 comics.  How many comics does Barry have?   Albert has 2 times as many comics as Steve.  Write an expression in terms of P that shows the number   of comics that Albert has in non-simplified and simplified form.
+12. what is the nth term of this sequence   -   -3   -8   -13   -18   -23
+13. Round 44.0219 to the nearest hundreth.
+14. Doreen has some money.  After spending 30% of it she is left with $25.33.  How much money did she start with?
+15. what is the nth term of this sequence   -   -5   -12   -19   -26   -33
+16. Steve has some money.  After spending 25% of it he is left with $65.62.  How much money did he start with?
+17. Y  Y  Y  Y  Y  Y  $  Y  Y  Y  $  Y  $  $  Y  Y       What is the ratio of $ to Y in its simplest form
+18. Algernon has P sweets, Steve has 3P + 10 sweets and George has 7P sweets.   Altogether Algernon, Steve and George have 120 sweets.  How many sweets does Algernon have?   Victor has 3 times as many sweets as Steve.  Write an expression in terms of P that shows the number   of sweets that Victor has in non-simplified and simplified form.
+19. Simplify the following expression : -3(-8x  -9)
+20. A sloth moves at 0.04 metres every 15 minutes.  How many hours will it take to move 80 cm?
+21. A tortoise moves at 0.025 metres every 45 minutes.  How many hours will it take to move 43 cm?
+22. Norman has P balloons, Jack has 6P + 7 balloons and Billy has 3P balloons.   Altogether Norman, Jack and Billy have 77 balloons.  How many balloons does Norman have?   Victor has 9 times as many balloons as Jack.  Write an expression in terms of P that shows the number   of balloons that Victor has in non-simplified and simplified form.
+23. Mr Monobrow has a bucket that contains 978 litres of water. He fills 5 new buckets with a volume of x litres of water, 2 new buckets with a volume of y litres of water, 4 new buckets with a volume of z litres of water. There is no water left over.  Write an equation that gives the a volume of of the bucket in terms of x, y and z. Calculate x and z if y = 85 and z = x - 5
+24. Barry has some money.  After spending 10% of it he is left with $59.29.  How much money did he start with?
+25. Norman has P sweets, Jack has 9P + 10 sweets and George has 10P sweets.   Altogether Norman, Jack and George have 110 sweets.  How many sweets does Norman have?   Albert has 4 times as many sweets as Jack.  Write an expression in terms of P that shows the number   of sweets that Albert has in non-simplified and simplified form.
+26. Barry is opening up a comic stall at the market.   He buys a stall for $S and the boxes of comic for $B.   Each box contains 6 comics and Barry buys 30 comics.   Write an expression in terms of S & B that shows the total cost in dollars?
+27. Find X in the following equation : 6768 + 6768 = X * 6
+28. Round 969889.97888 to the nearest tenth.
+29. you are given two numbers : 10 and 4.  there are also two missing numbers. The mean of the numbers is 5.  Which of the following pairs could be the missing numbers? 3 and 3, 8 and 7, 6 and 7, 2 and 9, 9 and 5.
+30. Norman has some money.  After spending 15% of it he is left with $29.88.  How much money did he start with?

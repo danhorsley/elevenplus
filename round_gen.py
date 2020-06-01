@@ -21,6 +21,40 @@ def rounding(with_answer = True):
     
     return [question, correct_answer]
 
+def round_up():
+    round_amounts = {'thousand' : [1000,0], 'hundred': [100,0],
+                     'unit' : [1,0], 'tenth' : [0.1,1], 'hundreth' : [0.01,2],
+                     'thousandth' : [0.001,3]}
+    
+    random_size1 = random.randint(0,9)
+    random_size2 = random.randint(3,5)
+    my_rounding = random.choice(list(round_amounts.keys()))
+    
+    my_num = 0
+    for i in range(random_size1+1):
+        if 10** (random_size1 - i) == round_amounts[my_rounding][0]:
+            my_num = my_num + 10 ** (random_size1 - i) * 9
+        else:
+            my_num = my_num + 10 ** (random_size1 - i) * random.choice([6,7,8,9])
+    #my_num = my_num + random.choice([8,9])
+    for j in range(random_size2):
+        #print(0.1** (random_size2 - j))
+        if round(0.1** (random_size2 - j),round_amounts[my_rounding][1]) == round_amounts[my_rounding][0]:
+            my_num = my_num + 0.1 ** (random_size2 - j) * 9
+        else:
+            my_num = my_num + 0.1 ** (random_size2 - j) * random.choice([6,7,8,9])
+    my_num = round(my_num, random_size2)
+    
+    question = f'Round {my_num} to the nearest {my_rounding}.'
+    
+    answer = round(my_num / round_amounts[my_rounding][0],0) * round_amounts[my_rounding][0]
+    if round_amounts[my_rounding][0]>=1:
+        answer = int(answer)
+    else:
+        answer = round(answer, round_amounts[my_rounding][1])
+    
+    return [question, answer]
+
 def percent_q():
     number_items = random.choice([4,5,6,8,10,12,15])
     disc = random.choice([10,20,30,40,50,60, 70])
@@ -31,7 +65,8 @@ def percent_q():
     my_item = random.choice(adj) + ' ' + random.choice(items)
     number_items_to_price = 1 #random.choice(range(5,20))
     
-    answer = round(round(random.random()*10,2) * ((100-disc)/100),2)
+    #answer = round(round(random.random()*10,2) * ((100-disc)/100),2)
+    answer = round(round(random.randint(1,9)) * ((100-disc)/100),2)
     price = round((answer / (1-(disc/100))) * number_items,2)
     question = f'''A packet of {number_items} {my_item} costs ${price}.  
         They are on special offer with {disc}% off. What is the cost of {number_items_to_price} {my_item[:-1]}'''
@@ -331,7 +366,8 @@ def make_worksheet(number_questions = 30, my_type = 'random'):
     question_bank = []
     answer_bank = []
     for j in range(0,number_questions):
-        type_dict = {'rounding' : rounding(), 'percent' : percent_q(), 
+        type_dict = {'rounding' : rounding(), 'round_up' : round_up(),
+                                'percent' : percent_q(), 
                                 'ratio' : ratio_q(), 'simple_ratio' : simple_ratio(),
                                 'nth' : nth_term_q(),
                                 'percent2' : percent2_q(), 'average' : average_q(),
