@@ -83,7 +83,7 @@ def ratio_q():
     ratio_string = str(ratios[0])
     for i in ratios[1:]:
         ratio_string = ratio_string + ' : ' + str(i)
-    my_q = f'split {my_integer} in the ratio {ratio_string}'
+    my_q = f'Split {my_integer} in the ratio {ratio_string}'
     #answer = [int(ratio1 * my_integer / (ratio1 + ratio2)), int(ratio2 * my_integer / (ratio1 + ratio2))]
     answer = [(r * my_integer/ sum(ratios)) for r in ratios]
     return [my_q, answer]
@@ -107,7 +107,7 @@ def nth_term_q():
         return (seq_mult * n) + seq_const
     formula_string = f'{my_mult}n {const_str}'
     my_seq = f'{my_form(1)}   {my_form(2)}   {my_form(3)}   {my_form(4)}   {my_form(5)}'
-    my_q = f'what is the nth term of this sequence   -   {my_seq}'
+    my_q = f'What is the nth term of this sequence   -   {my_seq}'
     return [my_q, formula_string]
 
 def percent2_q():
@@ -150,7 +150,7 @@ def average_q():
             poss_answer_string = poss_answer_string +  ', '
         else:
             poss_answer_string = poss_answer_string +  '.'
-    question = f'''you are given two numbers : {number1} and {number2}.  there are also two missing numbers.
+    question = f'''You are given two numbers : {number1} and {number2}.  there are also two missing numbers.
                     The mean of the numbers is {mean}.  Which of the following pairs could be the missing numbers?
                     {poss_answer_string}'''    
     return [question.replace('\n                    ', ' '), (missing1, missing2)]
@@ -361,13 +361,24 @@ def simple_ratio():
          What is the ratio of {obj1} to {obj2} in its simplest form"""
     return [q.replace('\n    ', ''), answer]
 
+def coin_weight():
+    coin_dict = {1: 3.5, 2 : 7, 5 : 3.25, 10 : 6.5, 20: 5, 50: 8}
+    my_coin = random.choice(list(coin_dict.keys()))
+    num_coins = random.randint(50,100) 
+    my_pounds =  num_coins * my_coin/100
+    q = f"""A {my_coin}p coin weighs {coin_dict[my_coin]} grams.  
+    How much would a pile of these coins worth £{my_pounds} weigh in kilograms?"""
+    answer = num_coins * coin_dict[my_coin]/1000
+    answer_string = f'{answer} kg'
+    return [q.replace('\n    ', ''),answer_string]
+
 def make_worksheet(number_questions = 30, my_type = 'random'):
     
     question_bank = []
     answer_bank = []
     for j in range(0,number_questions):
         type_dict = {'rounding' : rounding(), 'round_up' : round_up(),
-                                'percent' : percent_q(), 
+                                'percent' : percent_q(), 'coin_weight': coin_weight(),
                                 'ratio' : ratio_q(), 'simple_ratio' : simple_ratio(),
                                 'nth' : nth_term_q(),
                                 'percent2' : percent2_q(), 'average' : average_q(),
