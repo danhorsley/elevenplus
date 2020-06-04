@@ -1,32 +1,23 @@
-1. What is the nth term of this sequence   -   4   0   -4   -8   -12
-2. What is the nth term of this sequence   -   -7   -9   -11   -13   -15
-3. Mr Smith has a bucket that contains 377 litres of water. He fills 1 new bucket with a volume of x litres of water, 3 new buckets with a volume of y litres of water, 1 new buckets with a volume of z litres of water. There is no water left over.  Write an equation that gives the a volume of of the bucket in terms of x, y and z. Calculate x and z if y = 84 and z = x - 29
-4. Barry has P balloons, Dave has 4P + 3 balloons and Neil has 8P balloons.   Altogether Barry, Dave and Neil have 185 balloons.  How many balloons does Barry have?   Albert has 6 times as many balloons as Dave.  Write an expression in terms of P that shows the number   of balloons that Albert has in non-simplified and simplified form.
-5. Barry has P sweets, Jack has 2P + 7 sweets and George has 4P sweets.   Altogether Barry, Jack and George have 77 sweets.  How many sweets does Barry have?   Larry has 8 times as many sweets as Jack.  Write an expression in terms of P that shows the number   of sweets that Larry has in non-simplified and simplified form.
-6. A slug moves at 0.03 metres every 45 minutes.  How many hours will it take to move 56 cm?
-7. Mr Jones has a pile of bricks that weighs 791 kg. He makes 1 new pile of weight x kg, 5 new piles of weight y kg, 4 new piles of weight z kg. There are no bricks left over.  Write an equation that gives the weight of the pile of bricks in terms of x, y and z. Calculate x and z if y = 68 and z = x + 29
-8. Round 13648.44787 to the nearest thousand.
-9. Barry is opening up a balloon stall at the market.   He buys a stall for $S and the boxes of balloon for $B.   Each box contains 5 balloons and Barry buys 10 balloons.   Write an expression in terms of S & B that shows the total cost in dollars?
-10. What is the nth term of this sequence   -   6   2   -2   -6   -10
-11. You are given two numbers : 10 and 9.  there are also two missing numbers. The mean of the numbers is 6.  Which of the following pairs could be the missing numbers? 10 and 9, 2 and 3, 6 and 6, 8 and 4, 7 and 2.
-12. Algernon has P comics, Steve has 2P + 7 comics and George has 5P comics.   Altogether Algernon, Steve and George have 87 comics.  How many comics does Algernon have?   Victor has 7 times as many comics as Steve.  Write an expression in terms of P that shows the number   of comics that Victor has in non-simplified and simplified form.
-13. What is the nth term of this sequence   -   12   14   16   18   20
-14. Algernon has P balloons, Jack has 6P + 6 balloons and George has 4P balloons.   Altogether Algernon, Jack and George have 61 balloons.  How many balloons does Algernon have?   Victor has 8 times as many balloons as Jack.  Write an expression in terms of P that shows the number   of balloons that Victor has in non-simplified and simplified form.
-15. A packet of 10 Sugar Wizards costs $10.0.  
-        They are on special offer with 10% off. What is the cost of 1 Sugar Wizard
-16. A packet of 8 Honey FreezyMcBreezies costs $72.0.  
-        They are on special offer with 40% off. What is the cost of 1 Honey FreezyMcBreezie
-17. What is the nth term of this sequence   -   15   20   25   30   35
-18. Barry is opening up a flower stall at the market.   He buys a stall for $S and the boxes of flower for $B.   Each box contains 8 flowers and Barry buys 56 flowers.   Write an expression in terms of S & B that shows the total cost in dollars?
-19. Simplify the following expression : 9(x + 9)
-20. Hilda has some money.  After spending 25% of it she is left with $32.85.  How much money did she start with?
-21. Find X in the following equation : 7516 + 7516 + 7516 + 7516 = X * 16
-22. Round 21013.23009 to the nearest thousand.
-23. A tortoise moves at 0.025 metres every 30 minutes.  How many hours will it take to move 90 cm?
-24. Round 6.89977 to the nearest thousandth.
-25. Split 1739 in the ratio 8 : 9 : 20
-26. Round 7729.80863 to the nearest thousand.
-27. Simplify the following expression : 4(-4x  -5)
-28. %  ?  %  %  ?  ?  %  %  ?  ?       What is the ratio of ? to % in its simplest form
-29. Mr Bonky-Clonky has a plank of wood that is 827 cm long. He makes 1 new plank of length x cm long, 5 new planks of length y cm long, 4 new planks of length z cm long. There  is no wood left over.  Write an equation that gives the length of the plank of wood in terms of x, y and z. Calculate x and z if y = 77 and z = x + 13
-30. Round 8886699976.898 to the nearest hundreth.
+1. You are given two numbers : 1 and 4.  there are also two missing numbers. The mean of the numbers is 2.  Which of the following pairs could be the missing numbers? 5 and 1, 6 and 7, 9 and 5, 7 and 8, 1 and 2.
+2. Round 3.53372 to the nearest tenth.
+3. Barry's football team play 45 matches. Barry draws a pie chart representing their results. If Barry's team drew 5 matches, what angle should he draw to represent this? If Barry draws an angle of 232 to show the number of matches the team won, how many matches did they win?
+4. Add all the numbers from 1 to 72
+5. What is the nth term of this sequence   -   3   11   19   27   35
+6. Round 9969.887 to the nearest thousand.
+7. A 5p coin weighs 3.25 grams.  How much would a pile of these coins worth £3.2 weigh in kilograms?
+8. Algernon is opening up a flower stall at the market.   He buys a stall for $S and the boxes of flower for $B.   Each box contains 6 flowers and Algernon buys 12 flowers.   Write an expression in terms of S & B that shows the total cost in dollars?
+9. Barry's birthday is 10 weeks from today.  If today is Tuesday 03. March 2020 what date is Barry's birthday?
+10. A tortoise moves at 0.025 metres every 45 minutes.  How many hours will it take to move 60 cm?
+11. Simplify the following expression : 8(-6x  -2)
+12. How many lines of symmetry are there in a regular octagon?
+13. Find X in the following equation : 9664 + 9664 + 9664 = X * 12
+14. %  %  %  $  $  %       What is the ratio of $ to % in its simplest form
+15. A packet of 10 Sugar Coins costs $90.0.  
+        They are on special offer with 70% off. What is the cost of 1 Sugar Coin
+16. Agatha has £83.77.  
+    After receiving 60% more money, how much does she have now?
+17. Barry has P balloons, Dave has 7P + 3 balloons and George has 2P balloons.   Altogether Barry, Dave and George have 133 balloons.  How many balloons does Barry have?   Albert has 8 times as many balloons as Dave.  Write an expression in terms of P that shows the number   of balloons that Albert has in non-simplified and simplified form.
+18. Steve has some money.  After spending 90% of it he is left with $2.49.  How much money did he start with?
+19. Mr Smith has a pile of bricks that weighs 676 kg. He makes 4 new piles of weight x kg, 1 new pile of weight y kg, 3 new pile of weight z kg. There are no bricks left over.  Write an equation that gives the weight of the pile of bricks in terms of x, y and z. Calculate x and z if y = 100 and z = x + 24
+20. Split 3432 in the ratio 20 : 6
+21. Barry works out that 34 x 36 = 1224. What is 3.4000000000000004 x 360000 ?

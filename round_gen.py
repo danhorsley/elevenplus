@@ -372,12 +372,69 @@ def coin_weight():
     answer_string = f'{answer} kg'
     return [q.replace('\n    ', ''),answer_string]
 
+def decimal_move():
+    num1 = random.randint(1,100)
+    num2 = random.randint(1,100)
+    mult1 = random.choice([0.0001, 0.001, 0.01, 0.1, 1, 10, 100, 1000, 10000])
+    mult2 = random.choice([0.0001, 0.001, 0.01, 0.1, 1, 10, 100, 1000, 10000])
+    prod1 = num1 * num2
+    num_alt1 = num1 * mult1
+    num_alt2 = num2 * mult2
+    answer = num_alt1 * num_alt2
+    q = f"""Barry works out that {num1} x {num2} = {prod1}. What is {num_alt1} x {num_alt2} ?"""
+    return [q, answer]
+
+def lines_of_symmetry():
+    ngon_dict = {3: 'an equilateral triangle', 4: 'a square', 5: 'a regular pentagon',
+                6: 'a regular hexagon', 7: 'a regular heptagon', 8: 'a regular octagon',
+                9: 'a regular nonagon',10: 'a regular decagon'}
+    my_choice = random.choice(list(ngon_dict.keys()))
+    q = f'How many lines of symmetry are there in {ngon_dict[my_choice]}?'
+    return [q, my_choice]
+
+def adding_nums():
+    my_int = random.randint(10,200)
+    answer = sum(range(my_int+1))
+    q = f'Add all the numbers from 1 to {my_int}'
+    return [q, answer]
+
+def pie_chart():
+    divisor = random.choice([10,20,30,45,60,90,180])
+    draw = random.randint(1,divisor//2)
+    win = random.randint(1,divisor - draw)
+    draw_angle = int(draw * 360/divisor)
+    win_angle = int(win * 360/divisor)
+    q = f"""Barry's football team play {divisor} matches. Barry draws a pie chart representing their results. 
+    If Barry's team drew {draw} matches, what angle should he draw to represent this? 
+    If Barry draws an angle of {win_angle} to show the number of matches the team won, how many matches did they win?"""
+    
+    return [q.replace('\n    ', ''), [draw_angle, win]]
+
+def calendar_advance():
+    from datetime import date, timedelta
+    year = 2020
+    month = random.randint(3,10)
+    day = random.randint(1,30)
+    my_date = date(year, month, day)
+    my_date_str = my_date.strftime("%A %d. %B %Y")
+    weeks_to_adv = random.choice([7,8,9,10])
+    answer = my_date + timedelta(days = 7* weeks_to_adv)
+    q = f"Barry's birthday is {weeks_to_adv} weeks from today.  If today is {my_date_str} what date is Barry's birthday?"
+    return [q, answer.strftime("%A %d. %B %Y")]
+
+def percent_up_q():
+    name_dict = {'Steve' : 'he', 'Barry' : 'he', 'Hilda' : 'she', 'Deirdre' : 'she', 'Agatha': 'she', 'Norman': 'he', 'Doreen': 'she'}
+    my_name = random.choice(['Steve', 'Barry', 'Hilda', 'Deirdre', 'Agatha', 'Norman', 'Doreen'])
+    spend = random.choice([90, 80, 75, 60, 50, 40, 30, 25, 10, 15])
+    start_amount = round(random.random()*100,2)
+    final_amount = round(start_amount*(1+(spend/100)),2)
+    question = f"""{my_name} has £{start_amount}.  
+    After receiving {spend}% more money, how much does {name_dict[my_name]} have now?"""
+    return [question, final_amount]
+    
 def make_worksheet(number_questions = 30, my_type = 'random'):
     
-    question_bank = []
-    answer_bank = []
-    for j in range(0,number_questions):
-        type_dict = {'rounding' : rounding(), 'round_up' : round_up(),
+    type_dict = {'rounding' : rounding(), 'round_up' : round_up(),
                                 'percent' : percent_q(), 'coin_weight': coin_weight(),
                                 'ratio' : ratio_q(), 'simple_ratio' : simple_ratio(),
                                 'nth' : nth_term_q(),
@@ -385,14 +442,17 @@ def make_worksheet(number_questions = 30, my_type = 'random'):
                                 'formula' : form_q(), 'formula2' : formq2(),
                                 'formula' : form_q3(), 'formula2' : form_q4(),
                                 'ooo1' : ooo1(), 'alg_sub' : alg_sub(),
-                                'quick_way' : quick_way(), 'slow_grow' : slow_grow()}
-        if my_type == 'random':
-            look_up = random.choice(list(type_dict.keys()))
-        else:
-            look_up = my_type
-        my_q = type_dict[look_up]
-        question_bank.append(my_q[0])
-        answer_bank.append(my_q[1])
+                                'quick_way' : quick_way(), 'slow_grow' : slow_grow(),
+                                'decimal_move' : decimal_move(), 'l_o_s' : lines_of_symmetry(),
+                                'adding_nums' : adding_nums(), 'pie_chart' : pie_chart(),
+                                'cal_adv' : calendar_advance(), 'percent_up' :percent_up_q()}
+    type_sample = random.sample(list(type_dict.keys()), len(type_dict.keys()))
+    question_bank = []
+    answer_bank = []
+    for j in range(0,len(type_dict.keys())):
+        
+        question_bank.append(type_dict[type_sample[j]][0])
+        answer_bank.append(type_dict[type_sample[j]][1])
         
     return question_bank, answer_bank
 
