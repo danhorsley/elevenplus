@@ -469,6 +469,14 @@ def fraction_size():
         answer = fraction_dict[max(fraction_dict.keys())]
     return [q, answer]
 
+def what_pct():
+    
+    total_q = random.choice([10,20,25,50,75])
+    total_r = random.randint(1,total_q)
+    answer = f'{round(100*total_r/total_q,2)}%'
+    q = f'Barry is a contestant on a game show. If he got {total_r} right out of {total_q}, what percentage did he get right?'
+    return [q, answer]
+
 def make_worksheet(number_questions = 30, my_type = 'random'):
     
     type_dict = {'rounding' : rounding(), 'round_up' : round_up(),
@@ -483,7 +491,8 @@ def make_worksheet(number_questions = 30, my_type = 'random'):
                                 'decimal_move' : decimal_move(), 'l_o_s' : lines_of_symmetry(),
                                 'adding_nums' : adding_nums(), 'pie_chart' : pie_chart(),
                                 'cal_adv' : calendar_advance(), 'percent_up' :percent_up_q(),
-                                'seq_steps' : seq_steps(), 'frac_size' : fraction_size()}
+                                'seq_steps' : seq_steps(), 'frac_size' : fraction_size(),
+                                'what_pct' : what_pct()}
     type_sample = random.sample(list(type_dict.keys()), len(type_dict.keys()))
     question_bank = []
     answer_bank = []
