@@ -378,8 +378,8 @@ def decimal_move():
     mult1 = random.choice([0.0001, 0.001, 0.01, 0.1, 1, 10, 100, 1000, 10000])
     mult2 = random.choice([0.0001, 0.001, 0.01, 0.1, 1, 10, 100, 1000, 10000])
     prod1 = num1 * num2
-    num_alt1 = num1 * mult1
-    num_alt2 = num2 * mult2
+    num_alt1 = round(num1 * mult1,4)
+    num_alt2 = round(num2 * mult2,4)
     answer = num_alt1 * num_alt2
     q = f"""Barry works out that {num1} x {num2} = {prod1}. What is {num_alt1} x {num_alt2} ?"""
     return [q, answer]
@@ -431,7 +431,44 @@ def percent_up_q():
     question = f"""{my_name} has £{start_amount}.  
     After receiving {spend}% more money, how much does {name_dict[my_name]} have now?"""
     return [question, final_amount]
-    
+
+def seq_steps():
+    start_point = random.randint(-10,10)
+    updown = random.choice([-1,1])
+    upstr = 'down'
+    if updown==1:
+        upstr = 'up'
+    step = random.randint(1,4) + 0.1*random.randint(1,9)
+    real_step = updown*step
+    nth = random.randint(4,8)
+    answer = round(start_point + (real_step*(nth-1)),1)
+    q = f'If you start a sequence at {start_point} and go {upstr} in steps of {real_step}, what is the {nth}th term?'
+    return [q, answer]  
+
+def fraction_size():
+    selection = 5
+    s_or_l = random.choice(['smallest', 'largest'])
+    fraction_dict = {}
+    i = 0
+    while i < selection:
+        denominator = random.randint(2,9)
+        numerator = random.randint(1,denominator-1)
+        frac = round(numerator/denominator,4)
+        if frac not in fraction_dict.keys():
+            fraction_dict[frac] = f'{numerator}/{denominator}'
+            i += 1
+        else:
+            pass
+    q_string = ''
+    for j in list(fraction_dict.keys()):
+        q_string = q_string + fraction_dict[j] + '   '
+    q = f'Which of these fractions is the {s_or_l} : {q_string}'
+    if s_or_l == 'smallest':
+        answer = fraction_dict[min(fraction_dict.keys())]
+    else:
+        answer = fraction_dict[max(fraction_dict.keys())]
+    return [q, answer]
+
 def make_worksheet(number_questions = 30, my_type = 'random'):
     
     type_dict = {'rounding' : rounding(), 'round_up' : round_up(),
@@ -445,7 +482,8 @@ def make_worksheet(number_questions = 30, my_type = 'random'):
                                 'quick_way' : quick_way(), 'slow_grow' : slow_grow(),
                                 'decimal_move' : decimal_move(), 'l_o_s' : lines_of_symmetry(),
                                 'adding_nums' : adding_nums(), 'pie_chart' : pie_chart(),
-                                'cal_adv' : calendar_advance(), 'percent_up' :percent_up_q()}
+                                'cal_adv' : calendar_advance(), 'percent_up' :percent_up_q(),
+                                'seq_steps' : seq_steps(), 'frac_size' : fraction_size()}
     type_sample = random.sample(list(type_dict.keys()), len(type_dict.keys()))
     question_bank = []
     answer_bank = []

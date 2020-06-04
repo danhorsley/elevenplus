@@ -1,23 +1,25 @@
-1. You are given two numbers : 1 and 4.  there are also two missing numbers. The mean of the numbers is 2.  Which of the following pairs could be the missing numbers? 5 and 1, 6 and 7, 9 and 5, 7 and 8, 1 and 2.
-2. Round 3.53372 to the nearest tenth.
-3. Barry's football team play 45 matches. Barry draws a pie chart representing their results. If Barry's team drew 5 matches, what angle should he draw to represent this? If Barry draws an angle of 232 to show the number of matches the team won, how many matches did they win?
-4. Add all the numbers from 1 to 72
-5. What is the nth term of this sequence   -   3   11   19   27   35
-6. Round 9969.887 to the nearest thousand.
-7. A 5p coin weighs 3.25 grams.  How much would a pile of these coins worth £3.2 weigh in kilograms?
-8. Algernon is opening up a flower stall at the market.   He buys a stall for $S and the boxes of flower for $B.   Each box contains 6 flowers and Algernon buys 12 flowers.   Write an expression in terms of S & B that shows the total cost in dollars?
-9. Barry's birthday is 10 weeks from today.  If today is Tuesday 03. March 2020 what date is Barry's birthday?
-10. A tortoise moves at 0.025 metres every 45 minutes.  How many hours will it take to move 60 cm?
-11. Simplify the following expression : 8(-6x  -2)
-12. How many lines of symmetry are there in a regular octagon?
-13. Find X in the following equation : 9664 + 9664 + 9664 = X * 12
-14. %  %  %  $  $  %       What is the ratio of $ to % in its simplest form
-15. A packet of 10 Sugar Coins costs $90.0.  
-        They are on special offer with 70% off. What is the cost of 1 Sugar Coin
-16. Agatha has £83.77.  
-    After receiving 60% more money, how much does she have now?
-17. Barry has P balloons, Dave has 7P + 3 balloons and George has 2P balloons.   Altogether Barry, Dave and George have 133 balloons.  How many balloons does Barry have?   Albert has 8 times as many balloons as Dave.  Write an expression in terms of P that shows the number   of balloons that Albert has in non-simplified and simplified form.
-18. Steve has some money.  After spending 90% of it he is left with $2.49.  How much money did he start with?
-19. Mr Smith has a pile of bricks that weighs 676 kg. He makes 4 new piles of weight x kg, 1 new pile of weight y kg, 3 new pile of weight z kg. There are no bricks left over.  Write an equation that gives the weight of the pile of bricks in terms of x, y and z. Calculate x and z if y = 100 and z = x + 24
-20. Split 3432 in the ratio 20 : 6
-21. Barry works out that 34 x 36 = 1224. What is 3.4000000000000004 x 360000 ?
+1. A 1p coin weighs 3.5 grams.  How much would a pile of these coins worth £0.73 weigh in kilograms?
+2. A packet of 15 Cola FreezyMcBreezies costs $75.0.  
+        They are on special offer with 60% off. What is the cost of 1 Cola FreezyMcBreezie
+3. Hilda has some money.  After spending 80% of it she is left with $68.69.  How much money did she start with?
+4. Add all the numbers from 1 to 41
+5. Round 668.789 to the nearest thousandth.
+6. What is the nth term of this sequence   -   14   24   34   44   54
+7. Norman is opening up a sweet stall at the market.   He buys a stall for $S and the boxes of sweet for $B.   Each box contains 7 sweets and Norman buys 14 sweets.   Write an expression in terms of S & B that shows the total cost in dollars?
+8. Round 197.04401 to the nearest thousandth.
+9. Split 2916 in the ratio 20 : 21 : 13
+10. How many lines of symmetry are there in a regular heptagon?
+11. Simplify the following expression : 3(9x + 7)
+12. Find X in the following equation : 8452 + 8452 + 8452 + 8452 = X * 8
+13. Which of these fractions is the largest : 1/3   3/5   3/8   6/7   5/7   
+14. Barry has £25.31.  
+    After receiving 75% more money, how much does he have now?
+15. Barry's football team play 90 matches. Barry draws a pie chart representing their results. If Barry's team drew 43 matches, what angle should he draw to represent this? If Barry draws an angle of 164 to show the number of matches the team won, how many matches did they win?
+16. Barry's birthday is 8 weeks from today.  If today is Wednesday 23. September 2020 what date is Barry's birthday?
+17. If you start a sequence at 5 and go up in steps of 1.2, what is the 6th term?
+18. A snail moves at 0.015 metres every 15 minutes.  How many hours will it take to move 48 cm?
+19. Barry has P comics, Steve has 10P + 9 comics and Neil has 3P comics.   Altogether Barry, Steve and Neil have 177 comics.  How many comics does Barry have?   Albert has 3 times as many comics as Steve.  Write an expression in terms of P that shows the number   of comics that Albert has in non-simplified and simplified form.
+20. Barry works out that 19 x 59 = 1121. What is 0.19 x 0.59 ?
+21. You are given two numbers : 10 and 2.  there are also two missing numbers. The mean of the numbers is 4.  Which of the following pairs could be the missing numbers? 6 and 7, 9 and 2, 5 and 7, 7 and 4, 1 and 3.
+22. Y  Y  Y  Y  Y  ?  ?  ?  Y  Y  ?  Y  ?  Y  Y       What is the ratio of ? to Y in its simplest form
+23. Mr Smith has a pile of bricks that weighs 742 kg. He makes 4 new piles of weight x kg, 5 new piles of weight y kg, 4 new piles of weight z kg. There are no bricks left over.  Write an equation that gives the weight of the pile of bricks in terms of x, y and z. Calculate x and z if y = 46 and z = x - 30
