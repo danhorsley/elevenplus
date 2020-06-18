@@ -22,9 +22,11 @@ def rounding(with_answer = True):
     return [question, correct_answer]
 
 def round_up():
-    round_amounts = {'thousand' : [1000,0], 'hundred': [100,0],
-                     'unit' : [1,0], 'tenth' : [0.1,1], 'hundreth' : [0.01,2],
-                     'thousandth' : [0.001,3]}
+    round_amounts = {'thousand' : [1000,0,' the nearest'], 'hundred': [100,0,' the nearest'],
+                     'unit' : [1,0,' the nearest'], 'whole number' : [1,0,' the nearest'],
+                     'tenth' : [0.1,1,' the nearest'],  'one decimal place' : [0.1,1,''],
+                      'hundreth' : [0.01,2,' the nearest'], 'two decimal places' : [0.01,2,''],
+                     'thousandth' : [0.001,3,' the nearest'], 'three decimal places' : [0.001,3,'']}
     
     random_size1 = random.randint(0,9)
     random_size2 = random.randint(3,5)
@@ -45,7 +47,7 @@ def round_up():
             my_num = my_num + 0.1 ** (random_size2 - j) * random.choice([6,7,8,9])
     my_num = round(my_num, random_size2)
     
-    question = f'Round {my_num} to the nearest {my_rounding}.'
+    question = f'Round {my_num} to{round_amounts[my_rounding][2]} {my_rounding}.'
     
     answer = round(my_num / round_amounts[my_rounding][0],0) * round_amounts[my_rounding][0]
     if round_amounts[my_rounding][0]>=1:
@@ -503,14 +505,24 @@ def make_worksheet(number_questions = 30, my_type = 'random'):
         
     return question_bank, answer_bank
 
-def create_text_file(worksheet):
-    with open('worksheet.txt', 'w') as f:
+def make_roundsheet(number_questions = 30, my_type = 'random'):
+    
+    question_bank = []
+    answer_bank = []
+    for j in range(0,30):
+        type_dict = {'round_up' : random.choice([round_up(),rounding()])}
+        question_bank.append(type_dict['round_up'][0])
+        answer_bank.append(type_dict['round_up'][1])
+        
+    return question_bank, answer_bank
+def create_text_file(worksheet, mypathw = 'worksheet.txt', mypatha = 'answersheet.txt'):
+    with open(mypathw, 'w') as f:
         i = 0
         for item in worksheet[0]:
             i = i + 1
             item = f'{i}. ' + str(item)
             f.write("%s\n" % item)
-    with open('answersheet.txt', 'w') as f:
+    with open(mypatha, 'w') as f:
         i = 0
         for item in worksheet[1]:
             i = i + 1

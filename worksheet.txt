@@ -1,26 +1,26 @@
-1. A tortoise moves at 0.045 metres every 45 minutes.  How many hours will it take to move 18 cm?
-2. Round 797977.998 to the nearest hundred.
-3. Which of these fractions is the largest : 2/3   1/4   1/6   3/7   8/9   
-4. You are given two numbers : 3 and 7.  there are also two missing numbers. The mean of the numbers is 5.  Which of the following pairs could be the missing numbers? 8 and 5, 7 and 5, 8 and 10, 10 and 10, 6 and 4.
-5. Barry's football team play 20 matches. Barry draws a pie chart representing their results. If Barry's team drew 10 matches, what angle should he draw to represent this? If Barry draws an angle of 18 to show the number of matches the team won, how many matches did they win?
-6. How many lines of symmetry are there in a regular decagon?
-7. X  %  %  X  %  %  %  %       What is the ratio of X to % in its simplest form
-8. Deirdre has some money.  After spending 90% of it she is left with $56.75.  How much money did she start with?
-9. A 50p coin weighs 8 grams.  How much would a pile of these coins worth £44.0 weigh in kilograms?
-10. Barry's birthday is 9 weeks from today.  If today is Saturday 08. August 2020 what date is Barry's birthday?
-11. Simplify the following expression : 8(5x + 5)
-12. A packet of 4 Mint Fribgidgets costs $4.0.  
-        They are on special offer with 60% off. What is the cost of 1 Mint Fribgidget
-13. Doreen has £73.42.  
-    After receiving 30% more money, how much does she have now?
-14. Round 17948.94997 to the nearest hundred.
-15. Find X in the following equation : 6194 + 6194 + 6194 = X * 6
-16. Barry is a contestant on a game show. If he got 25 right out of 75, what percentage did he get right?
-17. Algernon is opening up a sweet stall at the market.   He buys a stall for $S and the boxes of sweet for $B.   Each box contains 7 sweets and Algernon buys 42 sweets.   Write an expression in terms of S & B that shows the total cost in dollars?
-18. Add all the numbers from 1 to 143
-19. If you start a sequence at 9 and go down in steps of -3.8, what is the 5th term?
-20. Split 2220 in the ratio 10 : 8 : 13 : 6
-21. What is the nth term of this sequence   -   16   25   34   43   52
-22. Algernon has P flowers, Dave has 8P + 2 flowers and George has 10P flowers.   Altogether Algernon, Dave and George have 173 flowers.  How many flowers does Algernon have?   Albert has 8 times as many flowers as Dave.  Write an expression in terms of P that shows the number   of flowers that Albert has in non-simplified and simplified form.
-23. Barry works out that 63 x 48 = 3024. What is 63000 x 480000 ?
-24. Mr Bonky-Clonky has a pile of bricks that weighs 457 kg. He makes 4 new piles of weight x kg, 4 new piles of weight y kg, 1 new piles of weight z kg. There are no bricks left over.  Write an equation that gives the weight of the pile of bricks in terms of x, y and z. Calculate x and z if y = 29 and z = x + 36
+1. If you start a sequence at 9 and go up in steps of 1.3, what is the 8th term?
+2. Barry's birthday is 7 weeks from today.  If today is Thursday 08. October 2020 what date is Barry's birthday?
+3. Round 7583312.37354 to the nearest thousand.
+4. Round 879969.7878 to the nearest thousand.
+5. Simplify the following expression : -5(-4x + 6)
+6. How many lines of symmetry are there in an equilateral triangle?
+7. Algernon has P comics, Steve has 6P + 7 comics and Neil has 6P comics.   Altogether Algernon, Steve and Neil have 189 comics.  How many comics does Algernon have?   Albert has 8 times as many comics as Steve.  Write an expression in terms of P that shows the number   of comics that Albert has in non-simplified and simplified form.
+8. B  $  $  B  B  $       What is the ratio of $ to B in its simplest form
+9. Which of these fractions is the smallest : 3/6   8/9   3/5   1/3   2/3   
+10. Barry's football team play 10 matches. Barry draws a pie chart representing their results. If Barry's team drew 2 matches, what angle should he draw to represent this? If Barry draws an angle of 72 to show the number of matches the team won, how many matches did they win?
+11. A packet of 4 Sugar Coins costs $12.0.  
+        They are on special offer with 30% off. What is the cost of 1 Sugar Coin
+12. Agatha has some money.  After spending 10% of it she is left with $38.65.  How much money did she start with?
+13. Deirdre has £6.11.  
+    After receiving 60% more money, how much does she have now?
+14. A snail moves at 0.005 metres every 45 minutes.  How many hours will it take to move 3 cm?
+15. Barry is opening up a comic stall at the market.   He buys a stall for $S and the boxes of comic for $B.   Each box contains 7 comics and Barry buys 28 comics.   Write an expression in terms of S & B that shows the total cost in dollars?
+16. You are given two numbers : 8 and 9.  there are also two missing numbers. The mean of the numbers is 6.  Which of the following pairs could be the missing numbers? 9 and 2, 1 and 4, 1 and 10, 2 and 6, 4 and 3.
+17. Mr Smellypants has a bucket that contains 674 litres of water. He fills 2 new buckets with a volume of x litres of water, 5 new buckets with a volume of y litres of water, 5 new buckets with a volume of z litres of water. There is no water left over.  Write an equation that gives the a volume of of the bucket in terms of x, y and z. Calculate x and z if y = 50 and z = x - 30
+18. What is the nth term of this sequence   -   -7   -12   -17   -22   -27
+19. Split 6660 in the ratio 7 : 12 : 18
+20. A 5p coin weighs 3.25 grams.  How much would a pile of these coins worth £4.9 weigh in kilograms?
+21. Add all the numbers from 1 to 186
+22. Find X in the following equation : 2670 + 2670 = X * 4
+23. Barry is a contestant on a game show. If he got 1 right out of 50, what percentage did he get right?
+24. Barry works out that 53 x 66 = 3498. What is 0.053 x 0.66 ?
