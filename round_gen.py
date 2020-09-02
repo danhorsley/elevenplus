@@ -479,9 +479,76 @@ def what_pct():
     q = f'Barry is a contestant on a game show. If he got {total_r} right out of {total_q}, what percentage did he get right?'
     return [q, answer]
 
-def make_worksheet(number_questions = 30, my_type = 'random'):
+def HCF():
+    seed = random.randint(1,9)
+    num1 = random.randint(12,20)  * seed
+    num2 = random.randint(12,20) * seed
+    factors1 = [num1]
+    factors2 = [num2]
+    for i in range(1,num1//2 + 1):
+        if num1 % i== 0:
+            factors1.append(i)
+    for j in range(1,num2//2 + 1):
+        if num2 % j== 0:
+            factors2.append(j)
+    factors1 = set(factors1)
+    factors2 = set(factors2)
+    common_factors = factors1.intersection(factors2)
+    my_q =  f'Write a list of the common factors of the following two numbers : {num1}   {num2}'
+    return my_q, common_factors
+
+def find_lcm(x, y):
+    if x > y:
+        greater = x
+    else:
+        greater = y
+
+    while(True):
+        if((greater % x == 0) and (greater % y == 0)):
+            lcm = greater
+            break
+        greater += 1
+
+    return lcm
+
+def lcm_q():
+    seed = random.randint(2,9)
+    num1 = random.randint(1,20) * seed
+    num2 = random.randint(1,20) * seed
+    my_q = f'Find the lowest common multiple of {num1} and {num2}.'
+    my_a = find_lcm(num1, num2)
+    return my_q, my_a
+
+def mult_decimals():
+    dividers = [1,10,100,1000]
+    dec1 = random.randint(1,9)/random.choice(dividers)
+    dec2 = random.randint(1,9)/random.choice(dividers)
+    dec3 = random.randint(1,9)/random.choice(dividers)
+    my_q = f'What is {dec1} x {dec2} x {dec3} ?'
+    my_a = f'{dec1*dec2*dec3:.9f}'
+    return my_q, my_a
+
+def twenty_four():
+    hour = random.randint(0,12)
+    minute = random.randint(0,59)
+    ampm = 'pm'
+    if minute < 10:
+        minute = f'0{minute}'
+    my_time = f'{hour}:{minute}'
+    if hour==0:
+        ampm = 'am'
+        my_time = f'12:{minute}'
     
-    type_dict = {'rounding' : rounding(), 'round_up' : round_up(),
+    my_q = f'What is {my_time}{ampm} in 24 hour time?'
+    if hour == 12:
+        hour24=12
+    elif hour== 0:
+        hour24='00'
+    else:
+        hour24 = hour + 12
+    my_a = f'{hour24}:{minute}'
+    return my_q, my_a
+old_dict = {'rounding' : rounding(), 'round_up' : round_up(),
                                 'percent' : percent_q(), 'coin_weight': coin_weight(),
                                 'ratio' : ratio_q(), 'simple_ratio' : simple_ratio(),
                                 'nth' : nth_term_q(),
@@ -495,6 +562,18 @@ def make_worksheet(number_questions = 30, my_type = 'random'):
                                 'cal_adv' : calendar_advance(), 'percent_up' :percent_up_q(),
                                 'seq_steps' : seq_steps(), 'frac_size' : fraction_size(),
                                 'what_pct' : what_pct()}
+
+new_dict = {'rounding' : rounding(), 'round_up' : round_up(),
+            'percent' : percent_q(), 'percent_up' :percent_up_q(), 'what_pct' : what_pct(),'percent2' : percent2_q(),
+            'ratio' : ratio_q(), 'simple_ratio' : simple_ratio(),
+            'nth' : nth_term_q(), 'average' : average_q(),
+            'pie_chart' : pie_chart(),'twenty_four' : twenty_four(),
+            'lcm_q' : lcm_q(), 'HCF' : HCF(), 'mult_decimals' : mult_decimals(),
+            'alg_sub' : alg_sub()}
+
+def make_worksheet(number_questions = 30, my_type = 'random'):
+    
+    type_dict = new_dict
     type_sample = random.sample(list(type_dict.keys()), len(type_dict.keys()))
     question_bank = []
     answer_bank = []
